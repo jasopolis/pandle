@@ -67,6 +67,11 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           check out the original repo here
         </a>{' '}
       </p>
+      <p className="mt-6 text-xs italic text-gray-500 hover:underline dark:text-gray-300">
+        <a href="https://www.flaticon.com/free-icons/panda" title="panda icons">
+          Panda icon created by riajulislam - Flaticon
+        </a>
+      </p>
     </BaseModal>
   )
 }
