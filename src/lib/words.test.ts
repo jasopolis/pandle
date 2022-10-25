@@ -72,8 +72,6 @@ describe('solutionIndex', () => {
 
   test('word of the day', () => {
     expect(() => getWordOfDay(-1)).toThrowError('Invalid index')
-    expect(getWordOfDay(0)).toEqual('WHICH')
-    expect(getWordOfDay(1)).toEqual('THERE')
-    expect(getWordOfDay(255)).toEqual('SHEEP')
+    expect(getWordOfDay(0)).toEqual('PANDEY')
   })
 })

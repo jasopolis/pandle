@@ -1,1 +1,9 @@
-export const WORDS = ['pandey']
+export const WORDS = [
+  'pandey',
+  'potato',
+  'totpie',
+  'slothy',
+  'liuliu',
+  'sbubby',
+  'moosie',
+]
