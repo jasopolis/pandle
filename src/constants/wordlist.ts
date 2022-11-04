@@ -1,16 +1,23 @@
 export const WORDS = [
+  'pototo',
   'cuddle',
+  'lottle',
   'sbubby',
   'wordlu',
+  'kisses',
   'trashy',
+  'carrot',
   'fododo',
   'potato',
   'pandey',
+  'doodoo',
   'slothy',
   'totpie',
   'teethy',
   'liuliu',
+  'schnog',
   'moosie',
+  'noodle',
 ]
 
 // Use to shuffle list when adding new words
