@@ -44,8 +44,8 @@ The default configuration is for solutions and guesses of length five, but it is
 
 To configure for a different constant length:
 
-- Update the `WORDS` array in [src/constants/wordlist.ts](src/constants/wordlist.ts) to only include words of the new length.
-- Update the `VALID_GUESSES` array in [src/constants/validGuesses.ts](src/constants/validGuesses.ts) to only include words of the new length.
+- Update the `WORDS` array in [src/constants/wordlist.ts](src/constants/wordlist.ts) to include only words of the new length.
+- Update the `VALID_GUESSES` array in [src/constants/validGuesses.ts](src/constants/validGuesses.ts) to include only words of the new length.
 
 To configure for variable lengths:
 
@@ -109,11 +109,13 @@ For mobile and wearable devices and smart TVs, sharing of results is initially a
 - [Arwordle](https://arwordle.netlify.app/): Arabic
 - [Boludle](https://www.boludle.com/): Argentinian
 - [Gerdle](https://gerdle.vext.co.uk/): Cornish (Kernowek)
+- [Ijambo](https://www.ijambo.app/): Kirundi (spoken in Burundi)
 - [Jwordle](https://jwordle.vercel.app/): Japanese
 - [Katadel](https://katadel.vercel.app/): Jawi (Malay Arabic script)
 - [Keclap](https://keclap.xyz/): Sundanese
 - [Kelmaly](https://kelmaly.com/): Arabic
 - [Kerdle](https://kerdle.vercel.app/): Cornish/Kernewek (Standard Written Form)
+- [Labzle](https://labzle.netlify.app): Balochi
 - [Latindictionary.io](https://wordle.latindictionary.io/): Latin
 - [Lexoula](https://lexoula.com/): Ελληνικά (Greek)
 - [Malay](https://malay-wordle.netlify.app/): Bahasa Malaysia
@@ -123,7 +125,6 @@ For mobile and wearable devices and smart TVs, sharing of results is initially a
 - [Parolle.it](https://parolle.it): Italian
 - [Pashtoodle](https://pashtoodle.lingdocs.com): Pashto
 - [Persian](https://www.persian-wordle.ir/): Persian (Farsi)
-- [Persiga](https://www.persi.ga/): Portuguese
 - [Pinyin](https://www.pinyindle.com/): Pinyin (romanization system for Mandarin Chinese)
 - [Rudle](https://rudle.vercel.app): Russian
 - [Sindhal](https://hellosindh.com/sindhal): Sindhi
@@ -131,14 +132,13 @@ For mobile and wearable devices and smart TVs, sharing of results is initially a
 - [So'zzana](https://sozzana.netlify.app/): O'zbek (Lotin)
 - [Tatar](https://tatardle.vercel.app/): Tatar (Turkic Language)
 - [Tàu Tâi-gí (Taigi Wordle)](https://tau.taigi.info/): Taigi (Taiwanese)
-- [Telugu](https://teluguwordle.com): Telugu (South Indian Language)
 - [Tlembung](https://tlembung.vercel.app/): Javanese
 - [Tugma](https://tugma.vercel.app): Hiligaynon (spoken in the Philippines)
 - [Ukrainian](https://goroh.pp.ua/games/wordle): Ukrainian
 - [Urdle](https://urdle.chaoticity.com/): Urdu
 - [Vārdulis](https://wordle.lielakeda.lv/): Latvian
+- [Wokle](https://wokle.njamed.com/): Bininj Kunwok
 - [Word-leh!](https://word-leh.com): Singlish
-- [Wordlar](http://wordlar.uz/): Uzbek
 - [Wordle (BOS)](https://elahmo.github.io/wordle/): Bosnian
 - [Wordle (Spanish)](https://wordle-es.xavier.cc): Spanish/Espanol
 - [Wordle-RO](https://wordle-ro.sirb.net/): Romanian
@@ -149,12 +149,10 @@ For mobile and wearable devices and smart TVs, sharing of results is initially a
 - [Žodelė](https://zodele.lt): Lithuanian
 - [Слівце](https://slivce.com/): Ukrainian
 - [ਪੰਜਾਬੀ](https://punjabipuzzle.netlify.app/): Punjabi
-- [சொல்லாடல் Soladle](https://omtamil.com/soladle): Tamil
 - [字知之明](https://zedaizd.github.io/zh-char-puzzle/): Traditional Chinese
 - [꼬들 - 한국어](https://belorin.github.io/): Korean
 - [한글 풀어쓰기 5자](https://nakosung.github.io/wordle/): Korean
 - [ไทย](https://buddhistuniversity.net/wordle-thai/): Thai
-- [ಕನ್ನಡ](https://www.aksharabandha.co.in/): Kannada
 
 ### Fun themes
 
@@ -163,44 +161,53 @@ For mobile and wearable devices and smart TVs, sharing of results is initially a
 - [Birdle - Emojis](https://birdle.dev): Bird emojis
 - [Birdle](https://www.creek-birdle.com/): Birds
 - [Buildly](https://buildly.procurepro.co/): Construction themed
-- [Chipotle](https://chipotlele.herokuapp.com): Chipotle (food, items, etc.) themed
 - [Crosswordle](https://crosswordle.mekoppe.com/): Crossword mashup
 - [DALL-e-dle](https://dall-e-dle.vercel.app/): Provides a DALL-E generated image of the word as a clue
+- [Discwordle](https://discwordle.marcschulder.de/): Terry Pratchett's Discworld
 - [Dundle](https://dundle.dunmiffcord.com/): The Office
 - [FFXIVrdle](https://ffxivrdle.com/): Final Fantasy XIV
+- [Harderdl](https://helq.github.io/harderdl): For those who find Wordle too easy (might need pen and paper to solve)
 - [Harry Potter](https://www.harrypotterwordle.com/): Harry Potter
 - [JoJodle](https://jojo-news.com/fun/jojodle/): JoJo’s Bizarre Adventure
 - [Mahjong Handle](https://mahjong-handle.update.sh/): Mahjong Hands
 - [Filmle](https://filmle.now.sh/): Movie titles
 - [Fletcherdle](https://www.fletcherdle.com/): American singer-songwriter FLETCHER
 - [Lyricle](https://www.lyricle.app/): Lyrics
-- [Marvle](https://marvle.herokuapp.com): Superhero (Marvel and DC) themed
+- [Midnightle](https://midnightle.flra.eu): Taylor Swift's Midnights album
 - [Movie Wordle](https://movie-wordle.vercel.app): Bollywood
 - [Murdle](https://murdle.vercel.app/): Spooky hangman mashup
 - [Pawnle](https://pawnle.vercel.app/): Parks and Recreation
 - [Poker Handle](https://kikychow.github.io/poker-wordle/): Poker
-- [Poker Handle 2](https://poker-handle2.com/): Poker
+- [Poker Handle 2](https://poker-handle2.vercel.app/): Poker
 - [Polygonle](https://www.polygonle.com/): Wordle with a shape-based clue for each character
 - [Quettale](https://quettale.vercel.app/): Quenya, Elven language in LOTR
 - [Radiole](https://radiole.vercel.app/): Radio-themed (for World Radio Day)
 - [RareWordle](https://rwordle.vercel.app/): Word guessing with multiple simultaneous solutions of varying "values", all created from the same letters. The goal is to find the most obscure solution. It is inspired by the TV game show Pointless.
 - [Reverdle](https://reverdle.now.sh/): Wordle but in reverse, that is one has to make as many guesses possible which do not have any green letter (i.e. a letter in the correct location compared to the hidden solution).
+- [Spotle](https://spotlegame.co.uk): Wordle with an extra block, the incognito block
 - [Squirdle](https://squirdle-inky.vercel.app/): Pokeman
 - [Tacticle](https://tacticle.co/): Chess puzzles
 - [Taylordle](https://www.taylordle.com/): Taylor Swift
 - [Trekle](https://treklegame.com): Star Trek
+- [Turdle](https://turdle.xyz): Make the turtle jump!
 - [Weedel](https://meetmeinouter.space/wordle/): Video game characters
 - [Wordle.cl](https://www.wordle.cl): Chilean modisms, cities, places
 - [Wrdl](https://wrdl-abae.vercel.app/): Words that are 5 letters long after getting rid of their vowels
 - [WROUD](https://www.wroud.net/): W R O U D is a simple word game that challenges people to find a six-letter word in 3 guesses from a cloud of letters.
 - [香港麻雀 糊 dle](https://hkwudle.vercel.app/): Mahjong hands under Hong Kong rules
 
+### Fun themes in other languages
+
+- [German Harry Potter Wordle](https://hpwordle.de)
+- [Spotle](https://spotlegame.co.uk/portuguese): Spotle, but in Portuguese
+
 ### Math, Acronyms, Science, Tech, and more
 
 - [AI-powered](https://github.com/asirota/wordle-ai): Includes an AI component
 - [Biordle](https://biordle.grenteam.com): Biology
+- [Cloudle](https://github.com/sstenchever/cloudle): Cloud technology
 - [Colordle](https://github.com/necropolina/colordle): Guess the hexadecimal color code of the background
-- [Genel](https://andrewholding.github.io/gene-wordle/): Gene symbols
+- [Genele](https://andrewholding.github.io/gene-wordle/): Gene symbols
 - [Jazle](https://jazle.quest/): Javascript
 - [Mathler](https://www.mathler.com/): Find the solution that equals X
 - [Morsel](https://plingbang.github.io/morsel/): Morse
@@ -214,7 +221,6 @@ For mobile and wearable devices and smart TVs, sharing of results is initially a
 - [Rundle](https://furstenheim.github.io/react-wordle/): Like wordle, but only last three guesses are considered.
 - [Stockle](https://stockle.win/): Guess the stock or ETF
 - [Syscordle](https://nezza.github.io/syscordle/): SYSCALL
-- [TwoKinds](https://twokinds.me): There's only two kinds of people in this World.
 - [UNLOCOdle](https://unlocodle.collabital.com/): UNLOCODEs
 - [Visionle](https://orisenbazuru.github.io/visionle/): Guess the label of randomly chosen image from ImageNet/ImageNet-Sketch dataset (Machine learning)
 - [Zip-zap-bam!](https://aneets.github.io/zip-zap-bam/): Word ladder game.
