@@ -19,6 +19,19 @@ export const WORDS = [
   'adorbs',
   'trashy',
   'wordlu',
+  'octipi',
+  'bununa',
+  'banana',
+  'aminal',
+  'veggie',
+  'yumyum',
+  'bunbun',
+  'hotdog',
+  'apples',
+  'gaymes',
+  'tumtum',
+  'medley',
+  'zoomie',
 ]
 
 // Use to shuffle list when adding new words
